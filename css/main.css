@@ -8047,6 +8047,7 @@ h1 {
 .hero {
   background-image: url(../img/hero-bg.jpg);
   background-size: cover;
+  background-position:center;
   padding-top: 20vh;
   padding-bottom: 25vh; }
 
