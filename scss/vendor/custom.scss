@@ -1,0 +1,35 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "../../bootstrap/scss/functions";
+@import "../../bootstrap/scss/variables";
+@import "../../bootstrap/scss/mixins";
+
+// Optional
+@import "../../bootstrap/scss/reboot";
+@import "../../bootstrap/scss/type";
+@import "../../bootstrap/scss/images";
+@import "../../bootstrap/scss/code";
+@import "../../bootstrap/scss/grid";
+
+$red:     #e23400;
+$black:    #1f1f1f;
+$gray-600: #2d2d2d;
+$white: #FFF;
+$primary:  $red;
+
+
+$enable-rounded:            false;
+
+$display1-size:         12vw;
+
+
+$body-bg:                   $gray-600;
+$body-color:                $white;
+
+$font-size-base:              1.4rem;
+$lead-font-size:              ($font-size-base * 1.65);
+
+$btn-padding-y:    .7em;
+$btn-padding-x:    2em;
